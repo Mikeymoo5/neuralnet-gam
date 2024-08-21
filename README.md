@@ -1,6 +1,6 @@
 Have you ever bought a pet simulator game, just to realize it was boring? What if your virtual pet could be considered alive? Introducing: NEURALNET-GAME (rebrand coming soon!)
 
-Challenging the definition of "sentient" and "alive," NEURALNET-GAME uses reinforcement learning to provide a virtual pet with a virtual brain, allowing your pet to "live," which provideds an incentive to keep taking care of it. 
+Challenging the definition of "sentient" and "alive," NEURALNET-GAME uses reinforcement learning to provide a virtual pet with a virtual brain, allowing your pet to "live," which provides an incentive to keep taking care of it. 
 
 # TODO
 - [x] Finish Gymnasium environment
