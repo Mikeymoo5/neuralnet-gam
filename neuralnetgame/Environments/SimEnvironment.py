@@ -107,16 +107,17 @@ class SimEnv(gym.Env):
             return reward
         # Reward the agent for moving
         if self.action["action_type"] == "move":
-            reward += 0.08
+            reward += 0.09
         # Reward the agent for eating or drinking when under 80 hunger or thirst
         if self.action["action_type"] == "interact":
             if self.action["status"] == "success":
                 if self.action["interact_type"] == "food":
                     if self._pet["hunger"] <= 80:
-                        reward += 2
+                        reward += 0.5
+                    elif self._pet["hunger"] <=
                 if self.action["interact_type"] == "water":
                     if self._pet["thirst"] <= 80:
-                        reward += 2
+                        reward += 0.5
 
         # Punish the agent for low hunger or thirst
         if self._pet["hunger"] <= 40:
